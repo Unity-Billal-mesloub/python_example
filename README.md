@@ -8,15 +8,14 @@ python_example
 | pip builds           | [![Pip Actions Status][actions-pip-badge]][actions-pip-link] |
 | [`cibuildwheel`][]   | [![Wheels Actions Status][actions-wheels-badge]][actions-wheels-link] |
 
-[gitter-badge]:            https://badges.gitter.im/pybind/Lobby.svg
-[gitter-link]:             https://gitter.im/pybind/Lobby
-[actions-badge]:           https://github.com/pybind/python_example/workflows/Tests/badge.svg
-[actions-pip-link]:        https://github.com/pybind/python_example/actions?query=workflow%3A%22Pip
-[actions-pip-badge]:       https://github.com/pybind/python_example/workflows/Pip/badge.svg
-[actions-wheels-link]:     https://github.com/pybind/python_example/actions?query=workflow%3AWheels
-[actions-wheels-badge]:    https://github.com/pybind/python_example/workflows/Wheels/badge.svg
+[gitter-link]:             https://gitter.im/Unity-Billal-mesloub/Lobby
+[actions-badge]:           https://github.com/Unity-Billal-mesloub/python_example/workflows/Tests/badge.svg
+[actions-pip-link]:        https://github.com/Unity-Billal-mesloub/python_example/actions?query=workflow%3A%22Pip
+[actions-pip-badge]:       https://github.com/Unity-Billal-mesloub/python_example/workflows/Pip/badge.svg
+[actions-wheels-link]:     https://github.com/Unity-Billal-mesloub/python_example/actions?query=workflow%3AWheels
+[actions-wheels-badge]:    https://github.com/Unity-Billal-mesloub/python_example/workflows/Wheels/badge.svg
 
-An example project built with [pybind11](https://github.com/pybind/pybind11).
+An example project built with [pybind11](https://github.com/Unity-Billal-mesloub/pybind11).
 This requires Python 3.7+; for older versions of Python, check the commit
 history.
 
@@ -47,19 +46,3 @@ formats please refer to the Sphinx manual:
  - `cd python_example/docs`
  - `make html`
 
-License
--------
-
-pybind11 is provided under a BSD-style license that can be found in the LICENSE
-file. By using, distributing, or contributing to this project, you agree to the
-terms and conditions of this license.
-
-Test call
----------
-
-```python
-import python_example
-python_example.add(1, 2)
-```
-
-[`cibuildwheel`]:          https://cibuildwheel.readthedocs.io
